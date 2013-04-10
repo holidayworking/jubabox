@@ -12,8 +12,8 @@
 
 # Usage
 
-    $ git://github.com/holidayworking/vagrant-jubabox.git
-    $ cd vagrant-jubabox
+    $ git clone git@github.com:holidayworking/jubabox.git
+    $ cd jubabox
     $ vagrant up
     vagrant@jubabox:~$ cd jubatus-example/shogun
     vagrant@jubabox:~/jubatus-example/shogun$ jubaclassifier --configpath shogun.json &
