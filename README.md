@@ -12,9 +12,13 @@
 
 # Usage
 
+    $ vagrant plugin install vagrant-berkshelf
+    $ vagrant plugin install vagrant-vbguest
     $ git clone git@github.com:holidayworking/jubabox.git
     $ cd jubabox
+    $ bundle install
     $ vagrant up
+    $ vagrant ssh
     vagrant@jubabox:~$ cd jubatus-example/shogun
     vagrant@jubabox:~/jubatus-example/shogun$ jubaclassifier --configpath shogun.json &
     vagrant@jubabox:~/jubatus-example/shogun$ ruby ./shogun.rb
