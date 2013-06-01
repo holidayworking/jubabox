@@ -1,4 +1,5 @@
 include_recipe "jubabox::git"
+include_recipe "jubabox::client_java"
 include_recipe "jubabox::client_ruby"
 include_recipe "jubabox::client_python"
 
